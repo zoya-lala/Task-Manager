@@ -1,16 +1,18 @@
-# task_manager_app
+Task Manager App
+This is a Flutter app for managing posts. You can see a list of posts, check their details, and track if they've been read or not. Each post has a timer that runs only when it’s visible on the screen.
 
-A new Flutter project.
+Features
+-Displays a list of posts fetched from the backend.
+-Timer starts for a post only when it’s visible on the screen.
+-Posts turn white when marked as "read".
+-Simple navigation to see post details.
 
-## Getting Started
+How It’s Built
+The app uses BLoC (Business Logic Component) for managing state because it keeps the app organized and easier to debug. 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Setup Instructions
+1. Clone the project.
+2. Open the project in your preferred IDE.
+3. Install all required packages.
+4. Connect your device or emulator.
+5. Run the app.
