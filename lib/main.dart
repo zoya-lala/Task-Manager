@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
     return BlocProvider(
       create: (context) => PostBloc(Api(), StorageService()),
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         home: PostListScreen(),
       ),
     );
